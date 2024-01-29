@@ -8,6 +8,7 @@ p    {color: #C8102E;
 .topnav {
   background-color: #333;
   overflow: hidden;
+  text-align: center;
 }
 
 /* Style the links inside the navigation bar */
