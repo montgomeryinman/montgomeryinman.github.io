@@ -2,7 +2,8 @@ body {background-color: black;}
 h1   {color: #C8102E;
 		font-family: Roboto}
 p    {color: #C8102E;
-	font-family: Roboto}
+	font-family: Roboto;
+    font-size: 20px}
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -49,7 +50,7 @@ p    {color: #C8102E;
     content: ' 😊'; /* Emoji for the Home link */
 }
 
-.topnav a:hover[href="#DataViz"]::after {
+.topnav a:hover[href="dataviz.html"]::after {
     content: ' 📊'; /* Emoji for the DataViz link */
 }
 
@@ -74,7 +75,7 @@ p    {color: #C8102E;
     content: ' 😊'; /* Emoji for the Home link */
 }
 
-.topnav a.active[href="#DataViz"]::after {
+.topnav a.active[href="dataviz.html"]::after {
     content: ' 📊'; /* Emoji for the DataViz link */
 }
 
@@ -87,6 +88,7 @@ p    {color: #C8102E;
 }
 
 .image-container {
+    float: left;
       position: relative;
       width: 200px; /* Set the fixed width for the container */
       height: auto;
@@ -111,3 +113,9 @@ p    {color: #C8102E;
     font-size: 18px;
     font-family: Roboto;
     }
+
+.datavizthings {
+    text-align: center;
+}
+
+
