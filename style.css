@@ -35,11 +35,17 @@ p    {color: #C8102E;
   color: white;
 }
 
-.sportsimage {
-	width: 300px;
-	height: 300px;
-	margin-right: 10px;
-}
+.image-container {
+      position: relative;
+      width: 200px; /* Set the fixed width for the container */
+      height: auto;
+      margin-right: 10px;
+    }
+    
+.sports-image {
+     width: 100%;
+     height: auto;
+    }
 
 .image-text {
       position: absolute;
