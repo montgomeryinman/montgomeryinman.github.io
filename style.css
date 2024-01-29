@@ -1,7 +1,7 @@
 body {background-color: black;}
-h1   {color: red;
+h1   {color: #C8102E;
 		font-family: Roboto}
-p    {color: red;
+p    {color: #C8102E;
 	font-family: Roboto}
 
 /* Add a black background color to the top navigation */
@@ -18,6 +18,7 @@ p    {color: red;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: Roboto;
 }
 
 /* Change the color of links on hover */
@@ -28,6 +29,6 @@ p    {color: red;
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #C8102E;
   color: white;
 }
