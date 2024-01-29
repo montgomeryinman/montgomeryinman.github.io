@@ -34,3 +34,8 @@ p    {color: #C8102E;
   background-color: #C8102E;
   color: white;
 }
+
+img {
+    width: 200px; /* Set the desired width */
+    height: auto; /* Maintain aspect ratio */
+}
