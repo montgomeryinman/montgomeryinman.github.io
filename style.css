@@ -27,6 +27,7 @@ p    {color: #C8102E;
 .topnav a:hover {
   background-color: #ddd;
   color: black;
+  transition: background-color 0.3s, color 0.3s;
 }
 
 /* Add a color to the active/current link */
@@ -35,25 +36,78 @@ p    {color: #C8102E;
   color: white;
 }
 
+/* Add different emojis to the links when hovered */
+.topnav a:hover::after {
+    content: ''; /* Empty content, adjust the emojis individually */
+    display: inline-block;
+    margin-left: 5px; /* Add some spacing between the text and emoji */
+
+    /* Add individual emojis based on the link */
+}
+
+.topnav a:hover[href="index.html"]::after {
+    content: ' 😊'; /* Emoji for the Home link */
+}
+
+.topnav a:hover[href="#DataViz"]::after {
+    content: ' 📊'; /* Emoji for the DataViz link */
+}
+
+.topnav a:hover[href="resume.html"]::after {
+    content: ' 🎓'; /* Emoji for the About link */
+}
+
+.topnav a:hover[href="#SuperFunFact"]::after {
+    content: ' 🎉'; /* Emoji for the About link */
+}
+
+/* Add different emojis to the active links */
+.topnav a.active::after {
+    content: ''; /* Empty content, adjust the emojis individually */
+    display: inline-block;
+    margin-left: 5px; /* Add some spacing between the text and emoji */
+
+    /* Add individual emojis based on the link */
+}
+
+.topnav a.active[href="#About"]::after {
+    content: ' 😊'; /* Emoji for the Home link */
+}
+
+.topnav a.active[href="#DataViz"]::after {
+    content: ' 📊'; /* Emoji for the DataViz link */
+}
+
+.topnav a.active[href="resume.html"]::after {
+    content: ' 🎓'; /* Emoji for the About link */
+}
+
+.topnav a.active[href="#SuperFunFact"]::after {
+    content: ' 🎉'; /* Emoji for the About link */
+}
+
 .image-container {
       position: relative;
       width: 200px; /* Set the fixed width for the container */
       height: auto;
       margin-right: 10px;
     }
-    
+
 .sports-image {
      width: 100%;
      height: auto;
     }
 
 .image-text {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      color: white;
-      text-align: center;
-      font-size: 18px;
-      font-family: Roboto;
+    position: absolute;
+    top: 0; /* Position at the top of the container */
+    left: 0; /* Align to the left of the container */
+    width: 100%; /* Take the full width of the container */
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
+    color: white;
+    text-align: center;
+    padding: 10px; /* Add padding for better visibility */
+    box-sizing: border-box; /* Include padding and border in the total width/height */
+    font-size: 18px;
+    font-family: Roboto;
     }
