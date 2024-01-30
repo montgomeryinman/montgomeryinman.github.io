@@ -58,7 +58,7 @@ p    {color: #C8102E;
     content: ' 🎓'; /* Emoji for the About link */
 }
 
-.topnav a:hover[href="#SuperFunFact"]::after {
+.topnav a:hover[href="funfact.html"]::after {
     content: ' 🎉'; /* Emoji for the About link */
 }
 
@@ -83,7 +83,7 @@ p    {color: #C8102E;
     content: ' 🎓'; /* Emoji for the About link */
 }
 
-.topnav a.active[href="#SuperFunFact"]::after {
+.topnav a.active[href="funfact.html"]::after {
     content: ' 🎉'; /* Emoji for the About link */
 }
 
