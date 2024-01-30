@@ -93,6 +93,7 @@ p    {color: #C8102E;
       width: 200px; /* Set the fixed width for the container */
       height: auto;
       margin-right: 10px;
+      text-align: center;
     }
 
 .sports-image {
