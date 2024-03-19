@@ -90,11 +90,17 @@ p    {color: #C8102E;
 .image-container {
     float: left;
       position: relative;
-      width: 500px; /* Set the fixed width for the container */
+      width: 200px; /* Set the fixed width for the container */
       height: auto;
       margin-right: 10px;
       text-align: center;
     }
+
+.centerimages {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .sports-image {
      width: 100%;
