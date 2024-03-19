@@ -1,8 +1,8 @@
-body {background-color: black;}
+body {background-color:  black;}
 h1   {color: #C8102E;
-		font-family: Roboto}
+		font-family: Rockwell}
 p    {color: #C8102E;
-	font-family: Roboto;
+	font-family: Rockwell;
     font-size: 20px}
 
 /* Add a black background color to the top navigation */
@@ -21,7 +21,7 @@ p    {color: #C8102E;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  font-family: Roboto;
+  font-family: Rockwell;
 }
 
 /* Change the color of links on hover */
@@ -87,39 +87,13 @@ p    {color: #C8102E;
     content: ' 🎉'; /* Emoji for the About link */
 }
 
-.image-container {
-    float: left;
-      position: relative;
-      width: 200px; /* Set the fixed width for the container */
-      height: auto;
-      margin-right: 10px;
-      text-align: center;
-    }
-
-.centerimages {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+a {
+    color: #F1BE48;
 }
 
-.sports-image {
-     width: 100%;
-     height: auto;
-    }
-
-.image-text {
-    position: absolute;
-    top: 0; /* Position at the top of the container */
-    left: 0; /* Align to the left of the container */
-    width: 100%; /* Take the full width of the container */
-    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
-    color: white;
-    text-align: center;
-    padding: 10px; /* Add padding for better visibility */
-    box-sizing: border-box; /* Include padding and border in the total width/height */
-    font-size: 18px;
-    font-family: Roboto;
-    }
+a:hover{
+    background: #C8102E;
+}
 
 .datavizthings {
     text-align: center;
