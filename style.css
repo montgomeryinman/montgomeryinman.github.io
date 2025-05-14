@@ -1,6 +1,7 @@
 body {background-color:  black;}
 h1   {color: #C8102E;
-		font-family: Rockwell}
+	   font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-style: normal; font-variant: normal;
+    }
 p    {color: #C8102E;
 	font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; 
 }
