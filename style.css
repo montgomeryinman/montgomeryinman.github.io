@@ -1,7 +1,7 @@
 body {background-color:  #f2dfd0;}
 h1 {
     color: #c62027; /* Red color */
-    font-family: 'Futura', 'Trebuchet MS', Arial, sans-serif; /* Futura, fallback fonts */
+    font-family: 'Consolas'; /* Futura, fallback fonts */
     font-style: normal; /* Ensures the font style is normal */
     font-variant: normal; /* No font variant, keeping it simple */
 }
