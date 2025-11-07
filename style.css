@@ -1,18 +1,21 @@
-body {background-color:  #f2dfd0;}
+body {background-color:  #ffffff;}
+
 h1 {
-    color: #c62027; /* Red color */
-    font-family: 'Consolas'; /* Futura, fallback fonts */
+    color: #000000; /* Red color */
+    font-family: 'Share Tech Mono', monospace;
     font-style: normal; /* Ensures the font style is normal */
     font-variant: normal; /* No font variant, keeping it simple */
+    text-transform: uppercase;
 }
 p {
-    color: #c62027;
-	font-family: Futura, "Trebuchet MS", Arial, sans-serif; 
-    font-size: 14px; 
+    color: #000000;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 24px; 
     font-style: normal; 
     font-variant: normal; 
-    font-weight: 400; 
-    line-height: 20px; 
+    font-weight: 1000; 
+    line-height: 30px; 
+    text-transform: uppercase;
 }
 
 /* Add a black background color to the top navigation */
@@ -98,11 +101,10 @@ p {
 }
 
 a {
-    color: #c37021;
-}
-
-a:hover{
-    background: #C8102E;
+    color: #00ff66;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 24px; 
+    text-transform: uppercase;
 }
 
 .datavizthings {
@@ -112,4 +114,44 @@ a:hover{
 .facts {
     text-align: center;
 }
+
+/* === Centered Links with Icons === */
+.link-container {
+    display: flex;
+    flex-direction: column; /* stack links vertically */
+    align-items: center; /* center horizontally */
+    justify-content: center;
+    gap: 15px; /* spacing between each link */
+    margin-top: 40px; /* space from top content */
+    width: 150%;
+}
+
+.link-item {
+    display: flex;
+    align-items: center; /* vertically align icon with text */
+    gap: 10px; /* space between icon and text */
+}
+
+.link-item img {
+    width: 35px;
+    height: 35px;
+}
+
+.link-item a {
+    color: #00ff66; /* match your other links */
+    text-decoration: underline;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 24px;
+    text-transform: uppercase;
+    transition: color 0.001s ease;
+}
+
+.link-item a:hover {
+    color: #e63946; /* hover color */
+}
+
+.paragraph-container{
+    width: 50%;
+}
+
 
